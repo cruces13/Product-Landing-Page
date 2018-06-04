@@ -1,0 +1,29 @@
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li a {
+
+}
+#header {
+  grid-area: header;
+}
+#home {
+  grid-area: home;
+}
+#products {
+  grid-area: products;
+}
+#contact {
+  grid-area: contact;
+}
+.wrapper {
+  display: grid;
+  self-justify: center;
+  grid-template-areas:
+    "header"
+    "home"
+    "products"
+    "contact";
+}
